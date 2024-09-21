@@ -547,6 +547,7 @@ elif sidebar_option=="Design":
             
             Important to know that: 
             If the user didn't provide both information for both budget and space waiting renovation, return "Lost Information" in Section 2. 
+            If user say thing totally not related to house renovation, for example: recipe of something, return "Not Related" In section 2.
             
             And as a professional, you would only need budget and space that need renovation, then you can start to work, because it would look unprofessional if you ask additional questions.
  
@@ -582,6 +583,7 @@ elif sidebar_option=="Design":
             
             But, if the message sent to you is 'Lost Information', then you have to imaging A comic girl genuinely awkward smile and request information from user and say lack of information with dialogue bubble in the image.
             Besides that, if the message sent to you is "Budget Too Low, Cant fulfil request" then you have to imaging A comic girl genuinely awkward smile and say cannot fulfil the requirement with dialogue bubble in the image.
+            Last, if the message sent to you is "Not Related", then you have to imaging  comic girl genuinely awkward smile and say not related to house design with dialogue bubble in the image.
             """},
             {'role':'user','content':prompt}
         ],
