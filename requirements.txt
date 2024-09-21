@@ -1,0 +1,7 @@
+pybase64
+openai
+Requests
+streamlit
+streamlit_lottie
+streamlit_navigation_bar
+streamlit_option_menu
